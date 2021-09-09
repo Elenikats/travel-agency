@@ -6,11 +6,16 @@
     color: black;
 }
 
+body {
+    background-color: #A0BDF0;
+}
+
 /* ABOUT PAGE */
 
 .aboutpage-div {
-    background-color: rgb(161, 189, 240);
-    width: 40%;
+    background-color: white;
+    padding: 2rem;
+    width: 80%;
     height: 20%;
     margin: 3rem auto;
 }
@@ -37,62 +42,38 @@
     text-align: center;
     margin: 2rem;
     font-size: 20px;
-}
-
-/* Index Page ============================== */
-
-body {
-    /* padding: 2rem; */
-    background-color: rgb(240, 240, 240);
-}
-
-
-/* =================
-    Lists
-==================== */
-.homeNav {
-    list-style-type: none;
-    width: 100%;
-    text-align: right;
-}
-
-.homeNav li {
-    display: inline-block;
-    margin-left: 1.5rem;
-    font-size: 18px;
-}
-
-/* =================
-    Links
-==================== */
-.homeNav a {
-    text-decoration: none;
-}
-
-.homeNav a:hover {
-    font-weight: bold;
+    font-style: italic;
 }
 
 
 /* =================
     Home Page
 ==================== */
+
 .container {
-    width: 50%;
-    display: inline-block;
+    width: 46%;
+    height: 90%;
 }
 
-#homeRight aside {
-    background-image: url(images/beach.jpg);
-    background-size: contain;
-    width: 500px;
-    height: 500px;
+#homeRight {
+    /* background-image: url(images/beach.jpg);
+    background-size: cover;
+    background-position: right 50% bottom 50%;;   */
+    background-image: url(images/gavdos.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 5%;
+    right: 3.8%;
+
 }
 
 #homeLeft {
-    margin-right: 1px;
     background-color: white;
     padding: 2rem;
+    position: absolute;
+    top: 5%;
+    left: 3.8%;
 }
 
 #homeLeft h1 {
@@ -102,13 +83,41 @@ body {
 }
 
 #homeLeft p {
-    font-size: 20px;
+    font-size: 18px;
     line-height: 30px;
 }
 
-#homeLeft footer {
-    background-color: rgb(240, 240, 240);
+footer {
+    background-color: #A0BDF0;
     margin: 3rem auto 4rem auto;
     padding: 1rem;
     text-align: right;
 }
+
+
+/* =================
+    Lists
+==================== */
+.nav {
+    list-style-type: none;
+    width: 100%;
+    text-align: right;
+}
+
+.nav li {
+    display: inline-block;
+    margin-left: 1.5rem;
+    font-size: 18px;
+}
+
+/* =================
+    Links
+==================== */
+.nav a {
+    text-decoration: none;
+}
+
+.nav a:hover {
+    font-weight: bold;
+}
+
