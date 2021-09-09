@@ -42,6 +42,37 @@ body {
     text-align: center;
     margin: 2rem;
     font-size: 20px;
+}
+
+.about-footer {
+    text-align: center;
+}
+
+
+/* =================
+    Lists
+==================== */
+.homeNav {
+    list-style-type: none;
+    width: 100%;
+    text-align: right;
+}
+
+.homeNav li {
+    display: inline-block;
+    margin-left: 1.5rem;
+    font-size: 18px;
+}
+
+/* =================
+    Links
+==================== */
+.homeNav a {
+    text-decoration: none;
+}
+
+.homeNav a:hover {
+    font-weight: bold;
     font-style: italic;
 }
 
@@ -95,6 +126,66 @@ footer {
 }
 
 
+/* CONTACT PAGE */
+
+.contact-h1 {
+    text-align: center;
+    margin: 1rem;
+}
+
+.contact-container {
+    width: 100%;
+    height: 100%;
+    margin: 1rem auto;
+}
+
+.contact-img {
+    background-image: url(./images/contact-img.jpg);
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-position: center center;
+}
+
+form {
+  border: 3px solid #f1f1f165;
+  border-radius: 5px;
+  display: inline-block;
+  width: 50vw;
+  height: 45vh;
+  background-color: rgba(146, 146, 219, .2);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 3rem;
+}
+
+input[type=text], input[type=submit] {
+  width: 50%;
+  padding: 12px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+input[type=checkbox] {
+  margin-top: 16px;
+}
+
+input[type=submit] {
+  background-color: rgba(4, 145, 170, 0.322);
+  color: rgba(255, 255, 255, 0.7);
+  border: none;
+}
+
+input[type=submit]:hover {
+  background-color:  rgba(4, 165, 170, 0.8);
+}
+
+
 /* =================
     Lists
 ==================== */
@@ -120,4 +211,5 @@ footer {
 .nav a:hover {
     font-weight: bold;
 }
+
 
