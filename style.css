@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
 }
 
 /* ABOUT PAGE */
@@ -37,3 +39,76 @@
     font-size: 20px;
 }
 
+/* Index Page ============================== */
+
+body {
+    /* padding: 2rem; */
+    background-color: rgb(240, 240, 240);
+}
+
+
+/* =================
+    Lists
+==================== */
+.homeNav {
+    list-style-type: none;
+    width: 100%;
+    text-align: right;
+}
+
+.homeNav li {
+    display: inline-block;
+    margin-left: 1.5rem;
+    font-size: 18px;
+}
+
+/* =================
+    Links
+==================== */
+.homeNav a {
+    text-decoration: none;
+}
+
+.homeNav a:hover {
+    font-weight: bold;
+}
+
+
+/* =================
+    Home Page
+==================== */
+.container {
+    width: 50%;
+    display: inline-block;
+}
+
+#homeRight aside {
+    background-image: url(images/beach.jpg);
+    background-size: contain;
+    width: 500px;
+    height: 500px;
+}
+
+#homeLeft {
+    margin-right: 1px;
+    background-color: white;
+    padding: 2rem;
+}
+
+#homeLeft h1 {
+    font-style: italic;
+    font-size: 24px;
+    margin: 200px 0 2rem 0;
+}
+
+#homeLeft p {
+    font-size: 20px;
+    line-height: 30px;
+}
+
+#homeLeft footer {
+    background-color: rgb(240, 240, 240);
+    margin: 3rem auto 4rem auto;
+    padding: 1rem;
+    text-align: right;
+}
