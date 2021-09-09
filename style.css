@@ -118,6 +118,14 @@ body {
     line-height: 30px;
 }
 
+#homeLeft p::before {
+    content: open-quote;
+}
+
+#homeLeft p::after {
+    content: close-quote;
+}
+
 footer {
     background-color: #A0BDF0;
     margin: 3rem auto 4rem auto;
