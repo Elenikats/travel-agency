@@ -91,7 +91,7 @@ body {
     /* background-image: url(images/beach.jpg);
     background-size: cover;
     background-position: right 50% bottom 50%;;   */
-    background-image: url(images/gavdos.jpg);
+    background-image: url(./images/gavdos3.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
     position: absolute;
@@ -137,15 +137,15 @@ footer {
 
 /* CONTACT PAGE */
 
-.contact-h1 {
+.contact-h1, .contact-h2 {
     text-align: center;
     margin: 1rem;
 }
 
-.contact-container {
+.container-contact {
     width: 100%;
     height: 100%;
-    margin: 1rem auto;
+    margin: 0auto;
 }
 
 .contact-img {
@@ -153,18 +153,25 @@ footer {
     width: 100%;
     height: 100vh;
     background-repeat: no-repeat;
-    background-size: 80%;
+    background-size: 100%;
     background-position: center center;
+}
+
+.container-input {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); 
 }
 
 form {
   border: 3px solid #f1f1f165;
   border-radius: 5px;
   display: inline-block;
-  width: 50vw;
+  width: 60%;
   height: 45vh;
   background-color: rgba(146, 146, 219, .2);
-  position: absolute;
+  position: relative;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
